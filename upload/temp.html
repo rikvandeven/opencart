@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>sama-sama-shop.com</title>
+    <base href="https://samadev/" />
+    <meta name="description" content="sama-sama-shop - hip and organic handmade clothes" />
+
+    <!-- For Materialize CSS -->
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+    <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <!-- For Materialize CSS -->
+    <script type="text/javascript" src="marerialize/js/materialize.min.js"></script>
+
+</head>
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">logo</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">Javascript</a></li>
+                <li><a href="mobile.html">Mobile</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">Javascript</a></li>
+                <li><a href="mobile.html">Mobile</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <img src="https://samadev/image/catalog/sama-sama-logo.jpg" title="sama-sama-shop.com" alt="sama-sama-shop.com" class="img-responsive" />
+
+
+<!--<nav id="top">-->
+    <!--<div class="container">-->
+        <!--<div class="pull-left">-->
+            <!--<form action="https://samadev/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="form-currency">-->
+                <!--<div class="btn-group">-->
+                    <!--<button class="btn btn-link dropdown-toggle" data-toggle="dropdown">-->
+                        <!--<strong>€ </strong>-->
+                        <!--<span class="hidden-xs hidden-sm hidden-md">Currency</span> <i class="fa fa-caret-down"></i></button>-->
+                    <!--<ul class="dropdown-menu">-->
+                        <!--<li><button class="currency-select btn btn-link btn-block" type="button" name="EUR">€  Euro</button></li>-->
+                        <!--<li><button class="currency-select btn btn-link btn-block" type="button" name="GBP">£ Pound Sterling</button></li>-->
+                        <!--<li><button class="currency-select btn btn-link btn-block" type="button" name="USD">$ US Dollar</button></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+                <!--<input type="hidden" name="code" value="" />-->
+                <!--<input type="hidden" name="redirect" value="https://samadev/index.php?route=common/home" />-->
+            <!--</form>-->
+        <!--</div>-->
+        <!--<div class="pull-left">-->
+            <!--<form action="https://samadev/index.php?route=common/language/language" method="post" enctype="multipart/form-data" id="form-language">-->
+                <!--<div class="btn-group">-->
+                    <!--<button class="btn btn-link dropdown-toggle" data-toggle="dropdown">-->
+                        <!--<img src="catalog/language/en-gb/en-gb.png" alt="English" title="English">-->
+                        <!--<span class="hidden-xs hidden-sm hidden-md">Language</span> <i class="fa fa-caret-down"></i></button>-->
+                    <!--<ul class="dropdown-menu">-->
+                        <!--<li><button class="btn btn-link btn-block language-select" type="button" name="nl"><img src="catalog/language/nl/nl.png" alt="Dutch" title="Dutch" /> Dutch</button></li>-->
+                        <!--<li><button class="btn btn-link btn-block language-select" type="button" name="en-gb"><img src="catalog/language/en-gb/en-gb.png" alt="English" title="English" /> English</button></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+                <!--<input type="hidden" name="code" value="" />-->
+                <!--<input type="hidden" name="redirect" value="https://samadev/index.php?route=common/home" />-->
+            <!--</form>-->
+        <!--</div>-->
+        <!--<div id="top-links" class="nav pull-right">-->
+            <!--<ul class="list-inline">-->
+                <!--<li><a href="https://samadev/index.php?route=information/contact"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md">0614947059</span></li>-->
+                <!--<li class="dropdown"><a href="https://samadev/index.php?route=account/account" title="My Account" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md">My Account</span> <span class="caret"></span></a>-->
+                    <!--<ul class="dropdown-menu dropdown-menu-right">-->
+                        <!--<li><a href="https://samadev/index.php?route=account/register">Register</a></li>-->
+                        <!--<li><a href="https://samadev/index.php?route=account/login">Login</a></li>-->
+                    <!--</ul>-->
+                <!--</li>-->
+                <!--<li><a href="https://samadev/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (0)"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm hidden-md">Wish List (0)</span></a></li>-->
+                <!--<li><a href="https://samadev/index.php?route=checkout/cart" title="Shopping Cart"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Shopping Cart</span></a></li>-->
+                <!--<li><a href="https://samadev/index.php?route=checkout/checkout" title="Checkout"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">Checkout</span></a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</nav>-->
+<!--<header>-->
+    <!--<div class="container">-->
+        <!--<div class="row">-->
+            <!--<div class="col-sm-4">-->
+                <!--<div id="logo">-->
+                    <!--<a href="https://samadev/index.php?route=common/home"><img src="https://samadev/image/catalog/sama-sama-logo.jpg" title="sama-sama-shop.com" alt="sama-sama-shop.com" class="img-responsive" /></a>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-sm-5"><div id="search" class="input-group">-->
+                <!--<input type="text" name="search" value="" placeholder="Search" class="form-control input-lg" />-->
+                <!--<span class="input-group-btn">-->
+    <!--<button type="button" class="btn btn-default btn-lg"><i class="fa fa-search"></i></button>-->
+  <!--</span>-->
+            <!--</div>      </div>-->
+            <!--<div class="col-sm-3"><div id="cart" class="btn-group btn-block">-->
+                <!--<button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="btn btn-inverse btn-block btn-lg dropdown-toggle"><i class="fa fa-shopping-cart"></i> <span id="cart-total">0 item(s) - € 0.00</span></button>-->
+                <!--<ul class="dropdown-menu pull-right">-->
+                    <!--<li>-->
+                        <!--<p class="text-center">Your shopping cart is empty!</p>-->
+                    <!--</li>-->
+                <!--</ul>-->
+            <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</header>-->
+<div>hoi categories</div>
+<div class="container">
+    <nav id="menu" class="navbar">
+        <div class="navbar-header"><span id="category" class="visible-xs">Categories</span>
+            <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="https://samadev/all">Shop</a></li>
+                <li class="dropdown"><a href="https://samadev/brands" class="dropdown-toggle" data-toggle="dropdown">Brands</a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-inner">
+                            <ul class="list-unstyled">
+                                <li><a href="https://samadev/brands/craffox">Craffox (6)</a></li>
+                                <li><a href="https://samadev/brands/fin-and-vince">Fin and Vince (3)</a></li>
+                                <li><a href="https://samadev/brands/grimms">Grimm's (38)</a></li>
+                                <li><a href="https://samadev/brands/little-cocoa-bean">Little Cocoa Bean (4)</a></li>
+                                <li><a href="https://samadev/brands/mini-rodini">Mini Rodini (133)</a></li>
+                                <li><a href="https://samadev/brands/tiny-cottons">Tiny Cottons (43)</a></li>
+                                <li><a href="https://samadev/brands/agatha-cub">Agatha Cub  (24)</a></li>
+                                <li><a href="https://samadev/brands/lion-of-leisure">Lion of Leisure (46)</a></li>
+                                <li><a href="https://samadev/brands/little-man-happy">Little Man Happy (20)</a></li>
+                                <li><a href="https://samadev/brands/thief-and-bandit">Thief &amp; Bandit Kids (10)</a></li>
+                            </ul>
+                        </div>
+                        <a href="https://samadev/brands" class="see-all">Show All Brands</a> </div>
+                </li>
+                <li><a href="https://samadev/toys">Toys</a></li>
+                <li><a href="https://samadev/SALE">SALE</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div>einde header</div>
+<div class="container">
+    <div class="row">                <div id="content" class="col-sm-12"><div id="banner0" class="owl-carousel">
+        <div class="item">
+            <a href="/brands/craffox"><img src="https://samadev/image/cache/catalog/Banners/craffox-banner-website-1200x443.jpg" alt="  " class="img-responsive" /></a>
+        </div>
+        <div class="item">
+            <a href="/brands/little-man-happy"><img src="https://samadev/image/cache/catalog/Banners/lmh-banner-aw16homepage-1200x443.jpg" alt="  " class="img-responsive" /></a>
+        </div>
+        <div class="item">
+            <a href="/mini-rodini"><img src="https://samadev/image/cache/catalog/Banners/pre6-1200x443.jpg" alt="  " class="img-responsive" /></a>
+        </div>
+        <div class="item">
+            <a href="/brands/tiny-cottons"><img src="https://samadev/image/cache/catalog/Banners/tinycottons-aw-banner-16-1200x443.jpg" alt="  " class="img-responsive" /></a>
+        </div>
+    </div>
+        <script type="text/javascript"><!--
+        $('#banner0').owlCarousel({
+            items: 6,
+            autoPlay: 3000,
+            singleItem: true,
+            navigation: false,
+            pagination: false,
+            transitionStyle: 'fade'
+        });
+        --></script>
+        <h3>Featured</h3>
+        <div class="row">
+            <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="product-thumb transition">
+                    <div class="image"><a href="https://samadev/3-little-cars-monochrome"><img src="https://samadev/image/cache/catalog/grimms/new%20items/3-little-cars-monochrome-600x600.jpg" alt="3 Little Cars Monochrome" title="3 Little Cars Monochrome" class="img-responsive" /></a></div>
+                    <div class="caption">
+                        <h4><a href="https://samadev/3-little-cars-monochrome">3 Little Cars Monochrome</a></h4>
+                        <p>These different vehicles are amazingly simple in design.&nbsp;Suitable for rides&nbsp;in the country..</p>
+                        <p class="price">
+                            € 24.00                              <span class="price-tax">Ex Tax: € 19.83</span>
+                        </p>
+                    </div>
+                    <div class="button-group">
+                        <button type="button" onclick="cart.add('518');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+                        <button type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('518');"><i class="fa fa-heart"></i></button>
+                        <button type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('518');"><i class="fa fa-exchange"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="product-thumb transition">
+                    <div class="image"><a href="https://samadev/reindeer-sweatshirt"><img src="https://samadev/image/cache/catalog/mini-rodini/Pre%20Xmas%20aw16/1672020342-mini-rodini-reindeer-sweatshirt-red-1-600x600.jpg" alt="Reindeer Sweatshirt" title="Reindeer Sweatshirt" class="img-responsive" /></a></div>
+                    <div class="caption">
+                        <h4><a href="https://samadev/reindeer-sweatshirt">Reindeer Sweatshirt</a></h4>
+                        <p>Red sweatshirt with digitally printed reindeer in white and brown. The sweatshirt has soft rib cuffs..</p>
+                        <p class="price">
+                            € 55.00                              <span class="price-tax">Ex Tax: € 45.45</span>
+                        </p>
+                    </div>
+                    <div class="button-group">
+                        <button type="button" onclick="cart.add('604');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+                        <button type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('604');"><i class="fa fa-heart"></i></button>
+                        <button type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('604');"><i class="fa fa-exchange"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="product-thumb transition">
+                    <div class="image"><a href="https://samadev/cherry-sp-sweatshirt"><img src="https://samadev/image/cache/catalog/mini-rodini/Pre%20Xmas%20aw16/1712020033-mini-rodini-cherry-sp-sweatshirt-pink-1-600x600.jpg" alt="Cherry SP Sweatshirt" title="Cherry SP Sweatshirt" class="img-responsive" /></a></div>
+                    <div class="caption">
+                        <h4><a href="https://samadev/cherry-sp-sweatshirt">Cherry SP Sweatshirt</a></h4>
+                        <p>Off-white-colored sweatshirt with two pink cherries and the text “you are the cherry on my pie” prin..</p>
+                        <p class="price">
+                            € 46.00                              <span class="price-tax">Ex Tax: € 38.02</span>
+                        </p>
+                    </div>
+                    <div class="button-group">
+                        <button type="button" onclick="cart.add('606');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+                        <button type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('606');"><i class="fa fa-heart"></i></button>
+                        <button type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('606');"><i class="fa fa-exchange"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="product-thumb transition">
+                    <div class="image"><a href="https://samadev/wooden-camera-natural"><img src="https://samadev/image/cache/catalog/Craffox/craffox-woodentoy-cam-natural-600x600.jpg" alt="Wooden Camera Natural" title="Wooden Camera Natural" class="img-responsive" /></a></div>
+                    <div class="caption">
+                        <h4><a href="https://samadev/wooden-camera-natural">Wooden Camera Natural</a></h4>
+                        <p>PixFox toy camera for your little photographer. The toy is equipped with a shutter button, rotating ..</p>
+                        <p class="price">
+                            € 28.00                              <span class="price-tax">Ex Tax: € 23.14</span>
+                        </p>
+                    </div>
+                    <div class="button-group">
+                        <button type="button" onclick="cart.add('581');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
+                        <button type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('581');"><i class="fa fa-heart"></i></button>
+                        <button type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('581');"><i class="fa fa-exchange"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carousel0" class="owl-carousel">
+        </div>
+        <script type="text/javascript"><!--
+        $('#carousel0').owlCarousel({
+            items: 6,
+            autoPlay: 3000,
+            navigation: true,
+            navigationText: ['<i class="fa fa-chevron-left fa-5x"></i>', '<i class="fa fa-chevron-right fa-5x"></i>'],
+            pagination: true
+        });
+        --></script><div id="slideshow0" class="owl-carousel" style="opacity: 1;">
+        </div>
+        <script type="text/javascript"><!--
+        $('#slideshow0').owlCarousel({
+            items: 6,
+            autoPlay: 3000,
+            singleItem: true,
+            navigation: true,
+            navigationText: ['<i class="fa fa-chevron-left fa-5x"></i>', '<i class="fa fa-chevron-right fa-5x"></i>'],
+            pagination: true
+        });
+        --></script></div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h5>Information</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://samadev/about">About us</a></li>
+                    <li><a href="https://samadev/company_data">Company Data</a></li>
+                    <li><a href="https://samadev/brands">Our Brands</a></li>
+                    <li><a href="https://samadev/terms">Terms &amp; Conditions</a></li>
+                    <li><a href="https://samadev/sizes">Sizes</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h5>Customer Service</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://samadev/index.php?route=information/contact">Contact Us</a></li>
+                    <li><a href="https://samadev/index.php?route=account/return/add">Returns</a></li>
+                    <li><a href="https://samadev/index.php?route=information/sitemap">Site Map</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h5>Extras</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://samadev/index.php?route=product/manufacturer">Brands</a></li>
+                    <li><a href="https://samadev/index.php?route=account/voucher">Gift Certificates</a></li>
+                    <li><a href="https://samadev/index.php?route=affiliate/account">Affiliates</a></li>
+                    <li><a href="https://samadev/index.php?route=product/special">Specials</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h5>My Account</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://samadev/index.php?route=account/account">My Account</a></li>
+                    <li><a href="https://samadev/index.php?route=account/order">Order History</a></li>
+                    <li><a href="https://samadev/index.php?route=account/wishlist">Wish List</a></li>
+                    <li><a href="https://samadev/index.php?route=account/newsletter">Newsletter</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p>Powered By <a href="http://www.opencart.com">OpenCart</a><br /> sama-sama-shop.com &copy; 2016</p>
+    </div>
+</footer>
+
+<script type="text/javascript"><!--
+    $(document).ready(function(){
+        $(".button-collapse").sideNav();
+    });
+--></script>
+
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+
+<!-- Theme created by Welford Media for OpenCart 2.0 www.welfordmedia.co.uk -->
+
+</body></html>
