@@ -12,54 +12,16 @@
 
     <!-- For Materialize CSS -->
     <!--Import Google Icon Font-->
-    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--<link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+    <link type="text/css" rel="stylesheet" href="fonts/material-icons.css"  media="screen,projection"/>
     <!--Import materialize.css-->
+
     <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
     <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
     <!-- For Materialize CSS -->
     <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
 
-
-    <style>
-        .brand-logo img {
-            max-width: 200px;
-        }
-
-        .parallax-container {
-            min-height: 380px;
-            line-height: 0;
-            height: auto;
-            color: rgba(255,255,255,.9);
-        }
-        .parallax-container .section {
-            width: 100%;
-        }
-
-        @media only screen and (max-width : 992px) {
-            .parallax-container .section {
-                position: absolute;
-                top: 40%;
-            }
-            #index-banner .section {
-                top: 10%;
-            }
-        }
-
-        .icon-text .material-icons, .icon-text {
-            vertical-align: middle;
-        }
-
-        i.left {
-            margin-right: 5px;
-        }
-
-        .card-content.bottom {
-            position: absolute;
-            bottom: 65px;
-            left: 0;
-            right: 0;
-        }
-    </style>
+    <link type="text/css" rel="stylesheet" href="catalog/view/theme/default/stylesheet/stylesheet.css" media="screen,projection"/>
 
 </head>
 <body>
@@ -127,6 +89,23 @@
 
 
 <main>
+
+    <div id="filtertab" class="right grey darken-4">
+        <!-- Modal Trigger -->
+        <a class="modal-trigger waves-effect waves-light lime-text text-lighten-5" href="#modal1">Filter / Select</a>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+        </div>
+    </div>
+
 <!-- BANNER 1 -->
 
     <div id="index-banner" class="parallax-container">
@@ -135,7 +114,7 @@
                 <br><br>
                 <h1 class="header center teal-text text-lighten-2">Welcome</h1>
                 <div class="row center">
-                    <h5 class="header col s12 light">We are passionate about bringing you organic and fair produced fashion</h5>
+                    <h5 class="header col s12 light">We are passionate about bringing you organic and fair produced fashion and toys</h5>
                 </div>
                 <div class="row center">
                     <a href="products.html" id="shopping" class="btn-large waves-effect waves-light teal lighten-1">Start shopping</a>
@@ -201,84 +180,49 @@
         <div class="row">
 
             <div class="col s12 m6 l4">
-                <div class="card large sticky-action">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="image/cache/catalog/grimms/new%20items/3-little-cars-monochrome-600x600.jpg" alt="3 Little Cars Monochrome" title="3 Little Cars Monochrome" class="img-responsive" /></a>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="image/cache/catalog/grimms/new%20items/3-little-cars-monochrome-600x600.jpg" alt="Reindeer Sweatshirt" title="Reindeer Sweatshirt" class="img-responsive" /></a>
                     </div>
-
                     <div class="card-content">
-                        <span class="card-title truncate activator">3 Little Cars Monochrome</span>
-                        <span class="right">€ 24,00</span>
+                        <span class="card-title truncate">3 Little Cars Monochrome</span>
                     </div>
                     <div class="card-action">
-                        <a href="#"><span class="icon-text"><i class="material-icons left">info</i>Details</span></a>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">€ 24,00 <i class="material-icons right">close</i></span>
-                        <p>These different vehicles are amazingly simple in design.&nbsp;Suitable for rides&nbsp;in the country..</p>
-                        <ul class="collection with-header">
-                            <li class="collection-header"><h5>Sizes</h5></li>
-                            <li class="collection-item">92<a class="right" href="#">Add<i class="material-icons">shopping_cart</i></a></li>
-                            <li class="collection-item">98<a class="right" href="#">Add<i class="material-icons">shopping_cart</i></a></li>
-                            <li class="collection-item">104<a class="right" href="#">Add<i class="material-icons">shopping_cart</i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="col s12 m6 l4">
-                <div class="card large sticky-action">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="image/cache/catalog/mini-rodini/Pre%20Xmas%20aw16/1672020342-mini-rodini-reindeer-sweatshirt-red-1-600x600.jpg" alt="Reindeer Sweatshirt" title="Reindeer Sweatshirt" class="img-responsive" /></a>
-                    </div>
-                    <div class="card-content bottom">
-                        <span class="card-title truncate activator">Reindeer Sweatshirt</span>
-                    </div>
-                    <div class="card-action">
-                        <a href="#"><span class="icon-text"><i class="material-icons left">info</i>Details</span></a>
-                        <span class="right">€ 55,00</span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">€ 55,00 <i class="material-icons right">close</i></span>
-                        <p>Red sweatshirt with digitally printed reindeer in white and brown. The sweatshirt has soft rib cuffs..</p>
-                        <ul class="collection with-header">
-                            <li class="collection-header"><h5>Sizes</h5></li>
-                            <li class="collection-item">92<a class="right" href="#">Add<i class="material-icons">shopping_cart</i></a></li>
-                            <li class="collection-item">98<a class="right" href="#">Add<i class="material-icons">shopping_cart</i></a></li>
-                            <li class="collection-item">104<a class="right" href="#">Add<i class="material-icons">shopping_cart</i></a></li>
-                        </ul>
+                        <span class="left">€ 24,00</span>
+                        <a href="#"><span class="icon-text right">View</span></a>
                     </div>
                 </div>
             </div>
 
             <div class="col s12 m6 l4">
-                <div class="card large sticky-action">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="image/cache/catalog/mini-rodini/Pre%20Xmas%20aw16/1712020033-mini-rodini-cherry-sp-sweatshirt-pink-1-600x600.jpg" alt="Cherry SP Sweatshirt" title="Cherry SP Sweatshirt" class="img-responsive" /></a>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="image/cache/catalog/mini-rodini/Pre%20Xmas%20aw16/1672020342-mini-rodini-reindeer-sweatshirt-red-1-600x600.jpg" alt="Reindeer Sweatshirt" title="Reindeer Sweatshirt" class="img-responsive" /></a>
                     </div>
-
-                    <div class="card-content activator">
-                        <span class="card-title truncate activator">Cherry SP Sweatshirt</span>
-                        <span class="right">€ 46,00</span>
+                    <div class="card-content">
+                        <span class="card-title truncate">Reindeer Sweatshirt</span>
                     </div>
                     <div class="card-action">
-                        <a href="#"><span class="icon-text"><i class="material-icons left">info</i>Details</span></a>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">€ 46,00 <i class="material-icons right">close</i></span>
-                        <p>Off-white-colored sweatshirt with two pink cherries and the text “you are the cherry on my pie” prin..</p>
-                        <ul class="collection with-header">
-                            <li class="collection-header"><h5>Sizes</h5></li>
-                            <li class="collection-item">92<a class="right" href="#">Add<i class="material-icons">shopping_cart</i></a></li>
-                            <li class="collection-item">98<a class="right" href="#">Add<i class="material-icons">shopping_cart</i></a></li>
-                            <li class="collection-item">104<a class="right" href="#">Add<i class="material-icons">shopping_cart</i></a></li>
-                        </ul>
+                        <span class="left">€ 55,00</span>
+                        <a href="#"><span class="icon-text right">View</span></a>
                     </div>
                 </div>
             </div>
 
-
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="image/cache/catalog/mini-rodini/Pre%20Xmas%20aw16/1712020033-mini-rodini-cherry-sp-sweatshirt-pink-1-600x600.jpg" alt="Reindeer Sweatshirt" title="Reindeer Sweatshirt" class="img-responsive" /></a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title truncate">Cherry SP Sweatshirt</span>
+                    </div>
+                    <div class="card-action">
+                        <span class="left">€ 46,00</span>
+                        <a href="#"><span class="icon-text right">View</span></a>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
@@ -380,11 +324,41 @@
 
         </div>
     </div>
-
-
-
+    </div>
 </main>
 
+
+<footer class="page-footer grey darken-3">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Connect with us</h5>
+                <ul class="list-unstyled">
+                    <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/pages/SAMA-SAMA/363212557129278" target="blank"><i class="material-icons">polymer</i><span class="footer-text">&nbsp;Facebook</span></a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://instagram.com/samasamashop" target="blank"><i class="material-icons">polymer</i><span class="footer-text">&nbsp;Instagram</span></a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.pinterest.com/samasamashop" target="blank"><i class="material-icons">polymer</i><span class="footer-text">&nbsp;Pinterest</span></a></li>
+                    <li><a class="grey-text text-lighten-3" href="mailto:info@sama-sama-shop.com"><i class="material-icons">polymer</i><span class="footer-text">&nbsp;Mail</span></a></li>
+                </ul>
+            </div>
+
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Information</h5>
+                <ul class="list-unstyled">
+                    <li><a class="grey-text text-lighten-3" href="https://samadev/about">Over ons</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://samadev/company_data">Bedrijfsgegevens</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://samadev/brands">Onze merken</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://samadev/terms">Voorwaarden</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://samadev/sizes">Maten</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+        <div class="container">
+            © 2017 Copyright Sama-Sama Shop
+        </div>
+    </div>
+</footer>
 
     <script style="display:none"><!--
 
@@ -393,6 +367,7 @@
             $('.button-collapse').sideNav();
             $('.parallax').parallax();
             $(".dropdown-button").dropdown();
+            $('.modal').modal();
         }); // end of document ready
     })(jQuery); // end of jQuery name space
 
